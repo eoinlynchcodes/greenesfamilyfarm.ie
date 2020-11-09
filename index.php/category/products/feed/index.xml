@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Products &#8211; Greene&#039;s Family Farm</title>
+	<atom:link href="/index.php/category/products/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Free Range Eggs &#38; Farm Produce</description>
+	<lastBuildDate>Tue, 14 Aug 2018 16:01:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.16</generator>
+
+<image>
+	<url>/wp-content/uploads/2018/03/Greenes-Free-Range-Eggs-150x150.png</url>
+	<title>Products &#8211; Greene&#039;s Family Farm</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Free Range Eggs</title>
+		<link>/index.php/2018/05/17/free-range-eggs/</link>
+		<pubDate>Thu, 17 May 2018 11:31:17 +0000</pubDate>
+		<dc:creator><![CDATA[Mindsi]]></dc:creator>
+				<category><![CDATA[Products]]></category>
+
+		<guid isPermaLink="false">http://greeneseggs.mindsi.ie/?p=234</guid>
+		<description><![CDATA[<p>We are specialist producers of quality free range eggs. Our family is always available to care for our hens and we pay particular attention to bird welfare and husbandry management [&#8230;]</p>
+<p>The post <a rel="nofollow" href="/index.php/2018/05/17/free-range-eggs/">Free Range Eggs</a> appeared first on <a rel="nofollow" href="/">Greene&#039;s Family Farm</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>We are specialist producers of quality free range eggs. Our family is always available to care for our hens and we pay particular attention to bird welfare and husbandry management<br />
+• Our on-farm free range egg packing centre is approved by the Department of Agriculture &amp; Food, all eggs are fully traceable, local and delivered direct to you<br />
+• You and your customers can be assured of super fresh eggs always</p>
+<p>Greene’s Free Range Eggs will hero the category with off the shelf loose egg display units, consumers can pick and pack while saving on packaging waste<br />
+• In-store demonstrations promoting healthy eating, nutritional benefits, recipe development and home cooking<br />
+• Local sourcing of premium quality free range eggs</p>
+<h2>Nutritional Highlights</h2>
+<p>One egg contains just 5 grams of fat and only 1.5 grams of that is saturated fat. The rest of the fat is heart – healthy monounsaturated and polyunsaturated fat.</p>
+<h3>Brain Health</h3>
+<p>One egg yolk has about 300 micrograms of choline, and important nutrient that helps to regulate the brain, nervous system, and cardiovascular system.</p>
+<h3>Source Vitamins</h3>
+<p>Egg whites are rich sources of selenium, vitamin D, B6, B12 and minerals such as zinc, iron, fat soluble vitamins A, D, E and K and lecithin. Vitamin D is essential for bone growth, immunity and much more..</p>
+<h3>Protein and Amino Acids</h3>
+<p>Eggs contain about 6.30 grams of protein, making them one of the best food sources of protein. Eggs also contain all nine essential amino acids and three of the non-essential amino acids.</p>
+<p>The post <a rel="nofollow" href="/index.php/2018/05/17/free-range-eggs/">Free Range Eggs</a> appeared first on <a rel="nofollow" href="/">Greene&#039;s Family Farm</a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
