@@ -6,10 +6,11 @@
 
     <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' />
     <script>function myFunction() { var element = document.getElementById("window"); element.classList.toggle("open"); }</script>
-
+    <script src="js-files/holding-nav.js"></script>
     <!-- This site is optimized with the Yoast SEO plugin v8.0 - https://yoast.com/wordpress/plugins/seo/ -->
     <title>Greene’s Family Farm &ndash; Greene&#039;s Family Farm</title>
     <link rel="canonical" href="/" />
+    <link rel="stylesheet" href="css-files-by-eoin/cssbyeoin.css"/>
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Greene’s Family Farm &ndash; Greene&#039;s Family Farm" />
@@ -262,7 +263,6 @@
             }
 
             button#responsive-menu-button {
-                z-index: 99999;
                 display: none;
                 overflow: hidden;
                 outline: none;
@@ -315,15 +315,12 @@
             }
 
             .responsive-menu-box {
-                width: 25px;
-                height: 19px;
                 display: inline-block;
                 position: relative;
             }
 
             .responsive-menu-inner {
                 display: block;
-                top: 50%;
                 margin-top: -1.5px;
             }
 
@@ -399,22 +396,21 @@
                 width: 55px;
                 height: 55px;
                 position: absolute;
-                top: 17px;
                 right: 5%;
             }
 
 
 
             button#responsive-menu-button .responsive-menu-box {
-                color: #ffffff;
+                color: black;
             }
 
             .responsive-menu-open button#responsive-menu-button .responsive-menu-box {
-                color: #ffffff;
+                color: black;
             }
 
             .responsive-menu-label {
-                color: #ffffff;
+                color: black;
                 font-size: 14px;
                 line-height: 13px;
             }
@@ -879,8 +875,16 @@
         </nav>
     </header>
 
-    <div class="space">
+    <div id="spaceNavBar" class="space">
         <h2>Greene's Family Farm</h2>
+        <button id="responsive-menu-button"
+        class="responsive-menu-button responsive-menu-boring         responsive-menu-accessible" type="button"
+        aria-label="Menu">
+        <span class="responsive-menu-box">
+            <span class="responsive-menu-inner"></span>
+        </span>
+    </button>
+    <hr/>
     </div>
 
     <main>
@@ -914,9 +918,9 @@
                 <h1>Greene’s Family Farm</h1>
                 <p><strong>Greenes Free Range Eggs are based on their family farm in<br />
                         Rockfield, Rathaspick, Rathowen, Co. Westmeath.</strong></p>
-                <p><iframe max-width="100%" height="auto" margin="0 auto"
+                <iframe max-width="100%" 
                         src="https://www.youtube.com/embed/1ErSR7MA8CM" frameborder="0"
-                        allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <p>We have been farming and caring for the land over five generations.<br />
                     Our belief has always been rooted in good farming practices and traditional methods.<br />
                     Maintaining these practises and methods help us produce superior quality free<br />
@@ -1022,7 +1026,8 @@
             <section class="width recipes center">
                 <h2>Looking for ideas? Try some of our Recipes!</h2>
                 <a href="/index.php/2018/03/09/quiche/" class="recipe">
-                    <img width="550" height="550" src="/wp-content/uploads/2018/03/Quiche.jpg"
+                    <img max-width="100%" height="auto" src="/wp-content/uploads/2018/03/Quiche.jpg"
+                    id="quicheToResize"
                         class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
                         srcset="/wp-content/uploads/2018/03/Quiche.jpg 550w, /wp-content/uploads/2018/03/Quiche-150x150.jpg 150w, /wp-content/uploads/2018/03/Quiche-300x300.jpg 300w"
                         sizes="(max-width: 550px) 100vw, 550px" />
@@ -1104,23 +1109,11 @@
     <a href="https://mindsi.ie/" class="design" target="blank">Web design & Development by Mind's I Graphic & Web
         Design</a>
 
-    <button id="responsive-menu-button"
-        class="responsive-menu-button responsive-menu-boring         responsive-menu-accessible" type="button"
-        aria-label="Menu">
-        <span class="responsive-menu-box">
-            <span class="responsive-menu-inner"></span>
-        </span>
 
-    </button>
     <div id="responsive-menu-container" class="slide-left">
         <div id="responsive-menu-wrapper">
             <div id="responsive-menu-title">
-
-
-
-
                 Greene's Family Farm
-
             </div>
             <ul id="responsive-menu" class="">
                 <li id="responsive-menu-item-25"
