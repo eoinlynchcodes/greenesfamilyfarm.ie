@@ -505,7 +505,6 @@
                 vertical-align: middle;
             }
 
-            #responsive-menu-container #responsive-menu-title #responsive-menu-title-image img {}
 
             #responsive-menu-container #responsive-menu>li.responsive-menu-item:first-child>a {
                 border-top: 1px solid #f9f9f9;
@@ -894,7 +893,9 @@
     </div>
     <main>
 
-        <div class="cat-feat-img"><img src="/wp-content/uploads/2018/05/Family-Farm-Free-Range-Eggs.jpg" alt="" /></div>
+        <div class="">
+            <img id="storyImg" src="/wp-content/uploads/2018/05/Family-Farm-Free-Range-Eggs.jpg" alt="" />
+        </div>
         <section class="width max-width center">
             <h1>Our Story</h1>
             <p>
@@ -1002,14 +1003,15 @@
                         <a href="#"><img src="/wp-content/uploads/2018/03/twitter-white.svg" alt="twitter"></a>
                         <a href="#"><img src="/wp-content/uploads/2018/03/linked-in-white.svg" alt="linked in"></a>
                     </div>
+
                 </article>
 
+                <div class="clear"></div>
             </div>
     </footer>
 
     <a href="https://mindsi.ie/" class="design" target="blank">Web design & Development by Mind's I Graphic & Web
         Design</a>
-
 
     <div id="responsive-menu-container" class="slide-left">
         <div id="responsive-menu-wrapper">
@@ -1024,13 +1026,14 @@
                     <a href="/" class="responsive-menu-item-link"><img
                             src="/wp-content/uploads/2018/03/Greenes-Free-Range-Eggs.svg" alt="greenes fresh eggs logo"
                             class="logo"></a></li>
-                            <li id="responsive-menu-item-189"
-                            class="menu-item menu-item-type-taxonomy menu-item-object-category responsive-menu-item"><a
-                                href="/" class="responsive-menu-item-link">
-                                Home</a></li>
+
                 <li id="responsive-menu-item-189"
-                    class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item responsive-menu-item responsive-menu-current-item">
-                    <a href="/index.php/category/greenes-free-range-family-farm/" class="responsive-menu-item-link">Our
+                    class="menu-item menu-item-type-taxonomy menu-item-object-category responsive-menu-item"><a href="/"
+                        class="responsive-menu-item-link">
+                        Home</a></li>
+                <li id="responsive-menu-item-189"
+                    class="menu-item menu-item-type-taxonomy menu-item-object-category responsive-menu-item"><a
+                        href="/index.php/category/greenes-free-range-family-farm/" class="responsive-menu-item-link">Our
                         Story</a></li>
                 <li id="responsive-menu-item-143"
                     class="menu-item menu-item-type-taxonomy menu-item-object-category responsive-menu-item"><a
@@ -1040,8 +1043,8 @@
                         href="/index.php/category/recipes-with-free-range-eggs/"
                         class="responsive-menu-item-link">Recipes</a></li>
                 <li id="responsive-menu-item-166"
-                    class="menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item"><a
-                        href="/index.php/contact-us/" class="responsive-menu-item-link">Contact Us</a></li>
+                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-164 current_page_item responsive-menu-item responsive-menu-current-item">
+                    <a href="/index.php/contact-us/" class="responsive-menu-item-link">Contact Us</a></li>
                 <li id="responsive-menu-item-149"
                     class="menu-item menu-item-type-custom menu-item-object-custom responsive-menu-item"><a href="#"
                         class="responsive-menu-item-link"><img src="/wp-content/uploads/2018/06/facebook.svg"
@@ -1051,5 +1054,4 @@
     </div>
     <script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.9.16'></script>
 </body>
-
 </html>

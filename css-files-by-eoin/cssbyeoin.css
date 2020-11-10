@@ -98,6 +98,16 @@
         width: 100%;
         margin: 0 auto;
     }
+
+    #eggParagraph{
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    #textalignthisLeft{
+        text-align: left;
+    }
 }
 
 .buttonToReadMoreStory{
@@ -112,7 +122,10 @@
     padding: 1rem;
 }
 
-.buttonToReadMoreStory p{
+
+#storyImg{
+    width: 100%;
+    height: auto;
 }
 
 .homePageFlex{
@@ -134,8 +147,7 @@ iframe{
     padding: 0 0;
 }
 
-#moveLeftHeading{
-}
+
 .homePageParagraph{
     text-align: left;
     padding: 2rem 2rem;
