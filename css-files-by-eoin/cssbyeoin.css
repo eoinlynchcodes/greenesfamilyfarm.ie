@@ -95,6 +95,20 @@
     }
 }
 
+.buttonToReadMoreStory{
+    border: black 2px solid;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.buttonToReadMoreStory p{
+}
+
 .homePageFlex{
     display: flex;
     margin: 0 auto;
