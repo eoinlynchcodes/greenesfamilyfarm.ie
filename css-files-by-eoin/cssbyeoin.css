@@ -77,6 +77,11 @@
         max-width: 100%;
     }
 
+    #mapsSection{
+        max-width: 100%;
+    }
+
+
     #mobileSorting{
         display: flex;
         max-width: 100%;
