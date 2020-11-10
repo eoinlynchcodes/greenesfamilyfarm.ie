@@ -71,6 +71,28 @@
     .homePageParagraph{
         padding: 0rem 0rem;
     }
+    .recipes{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #mobileSorting{
+        display: flex;
+        max-width: 100%;
+        margin: 0 auto;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .recipe{
+        max-width: 100%;
+    }
+    
+    #forMobileSizing{
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
 .homePageFlex{
